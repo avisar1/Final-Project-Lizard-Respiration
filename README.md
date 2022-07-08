@@ -6,7 +6,7 @@ Lizard Breathing Monitor Manual:
 2) Set the parameters in main.m file:
 
 video_path - Lizards video path.
-generate_crop: 
+generate_crop:\n \n \n \n  
   1 - The program will generate automaticly cropped video in "cropped_video_path" according to "video_path" .
   0 - There is already cropped video in "cropped_video_path".
   If generate_crop is turned off make sure there is a video in "cropped_video_path"!
