@@ -1,0 +1,10 @@
+Read_Me DLC model: how to analyze video to get ROI excel file for the RR extracion matlab program.
+In case owning PC with gpu - download DLC gui nd upload this project.
+How to use the DLC gui Tutorial - https://www.youtube.com/watch?v=Teb5r2TNAYs&ab_channel=lcscience
+
+In case you desire to use google colab gpu, you can upload the DLC project to google drive and then use this note:
+https://colab.research.google.com/github/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_YOURDATA_TrainNetwork_VideoAnalysis.ipynb#scrollTo=q23BzhA6CXxu
+All the modifications needed is to apply are in the config.yaml as explained in the tutorial:
+- changing the body parts labels.
+- changing paths to vidoes and project location.
+after getting the excel file of the body parts location, place it in the matlab program folder and activate the program.
